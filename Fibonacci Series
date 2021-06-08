@@ -1,0 +1,5 @@
+def fibonacci(x,y):
+  while y<100:
+    print(y)
+    x,y = y, x+y
+fibonacci(0,1)    
