@@ -1,0 +1,4 @@
+mylist = ["apple", "banana", "cherry"]
+for list1 in mylist:
+  a = list1[::-1]
+  print(list(a))
